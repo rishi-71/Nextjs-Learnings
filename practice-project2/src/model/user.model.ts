@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 interface Iuser {
     _id? : mongoose.Types.ObjectId;//ye id jo mongodb me jo object id hoti h vo h
     name : string;
-    image : string;//cloudinary se url aayega string me
+    image? : string;//cloudinary se url aayega string me
     email : string;
     password : string;
     createdAt? : Date;
