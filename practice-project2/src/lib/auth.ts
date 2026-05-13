@@ -66,7 +66,7 @@ const authOptions : NextAuthOptions={
      session:{
         //frontend me only session accesss hota h token nhi
         strategy : 'jwt',
-        maxAge : 30*24*60*60*1000 //30 days in milisecond after which we have to login again
+        maxAge : 30*24*60*60 //30 days in milisecond after which we have to login again
      },
      pages:{
         signIn : '/login',
